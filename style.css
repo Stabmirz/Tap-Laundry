@@ -138,13 +138,23 @@ textarea, .card, .card-header{
 }
 
 input[type=text]{
-    width: 20em;
+    width: 100%;
     border-radius:0.2em;
     margin-bottom: 1em;
     color: gray;
 }
 
+.label{
+    float: left;
+}
+
 #note{
     font-size: .8em;
     font-style: italic;
+    text-align: left;
+}
+
+
+.swal-button--confirm{
+    background-color: rgb(2, 79, 129)!important;
 }
