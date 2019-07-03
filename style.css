@@ -30,7 +30,7 @@ h4{
     color: white!important;
     padding: 0.5em 2em;
     font-size: 0.8em;
-    border-radius: 3em!important;
+    border-radius: 3em;
 }
 
 table{
@@ -39,19 +39,21 @@ table{
     -webkit-box-shadow: 0em .125em 0.313em 0em rgba(186,186,186,0.75);
     -moz-box-shadow: 0em .125em 0.313em 0em rgba(186,186,186,0.75);
     box-shadow: 0em .125em 0.313em 0em rgba(186,186,186,0.75);
+    border-radius: 0.2em;
+    overflow: hidden;
 }
 
 .dataTables_filter{
-    float: left!important;
-    color: gray;
-    margin-top: 2em !important;
+    float: left !important;
+    color: gray !important;
+    margin-top: 2em ;
 }
 
 input[type=search]{
-    height: 1.5em!important;
-    width: 15em!important;
-    border: gray!important;
-    border-radius: 0.2em !important;
+    height: 1.5em;
+    width: 15em;
+    border: gray !important;
+    border-radius: 0.2em ;
 }
 
 thead{
@@ -61,28 +63,29 @@ thead{
 
 
 .dataTables_paginate {
-    text-align: center!important;
+    text-align: center !important;
     float: none !important;
     padding-top: 0.5em !important;
 }
 
 .dataTables_length, .dataTables_info{
-    display: none !important;
+    display: none ;
 }
 
 .previous, .next{
     background-color: white !important;
     padding: .25em .50em !important;
+    margin-left:0em !important;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.current {
-    color: #fff!important;
-    background: rgb(4, 92, 133) !important;
-    border:rgb(4, 92, 133)!important;
+    color: #fff !important;
+    background: rgb(4, 92, 133);
     padding: .25em .70em !important;
+    margin-left:0em !important;
 }
 
-div.container{
+.container{
     min-width: 100% !important;
     margin-top: 2em !important;
 }
@@ -133,8 +136,19 @@ textarea, .card, .card-header{
 .checkbox{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0.2em;
+    justify-content: flex-end;
+    padding: 0.3em;
+}
+
+.checkbox-label{
+    margin-right: 3em;
+}
+
+.toggle-handle{
+    background-color:white !important;
+}
+.btn-default{
+    background-color: rgb(231, 228, 228);
 }
 
 input[type=text]{
@@ -153,7 +167,6 @@ input[type=text]{
     font-style: italic;
     text-align: left;
 }
-
 
 .swal-button--confirm{
     background-color: rgb(2, 79, 129)!important;
