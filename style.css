@@ -141,14 +141,26 @@ textarea, .card, .card-header{
 }
 
 .checkbox-label{
-    margin-right: 3em;
+   margin-right:20%;
+   text-align: right;
+}
+
+.checkbox-input{
+   margin-right:10%;
+   text-align: right;
 }
 
 .toggle-handle{
     background-color:white !important;
 }
+
 .btn-default{
     background-color: rgb(231, 228, 228);
+}
+
+.btn-primary{
+    background: rgb(2, 165, 177) !important;
+    border: none;
 }
 
 input[type=text]{
